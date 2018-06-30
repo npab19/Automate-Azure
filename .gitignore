@@ -378,3 +378,7 @@ ASALocalRun/
 
 
 # End of https://www.gitignore.io/api/windows,powershell,visualstudio,visualstudiocode
+
+# Azure Automation Powershell ISE
+LocalAssets.json
+SecureLocalAssets.json
