@@ -1,6 +1,6 @@
 ﻿Get-PSSession | Remove-PSSession
 # Connect to Office 365
-$Credentials = Get-AutomationPSCredential -Name 'Office 365 Subx 3'
+$Credentials = Get-AutomationPSCredential -Name "Office 365"
 Connect-MsolService -Credential $Credentials
 
 # Get all verifed domains
